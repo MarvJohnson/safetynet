@@ -1,0 +1,65 @@
+.App > main {
+  max-width: 600px;
+  margin: 12rem auto 0 auto;
+  padding: 0 1rem;
+}
+
+.App > main > section > h1,
+.App > main > section > h2 {
+  text-align: center;
+}
+
+.App > main > section > h1 {
+  font-size: 50px;
+  margin-bottom: 1.2rem;
+  white-space: nowrap;
+}
+
+.App > main > section > h2 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.App > main > section:nth-child(n + 2) {
+  margin-top: 4rem;
+}
+
+.App > main > section:nth-child(n + 2) > h3 {
+  font-size: 20px;
+}
+
+.p-header {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .App > main > section > h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .App > main > section > h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .App > main > section > h1 {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+  }
+
+  .App > main > section > h2 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .App > main > section > h1 {
+    font-size: 22px;
+  }
+}

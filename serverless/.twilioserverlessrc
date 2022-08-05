@@ -1,0 +1,7 @@
+{
+	"commands": {},
+	"environments": {},
+	"projects": {},
+	"env": "../.env",
+	"runtime": "node14"
+}

@@ -1,0 +1,9 @@
+.contingent-form {
+  max-width: 600px;
+}
+
+.contingent-create {
+  margin-top: 7rem;
+  min-height: calc(100vh - 18.25rem);
+  padding: 0 1rem;
+}

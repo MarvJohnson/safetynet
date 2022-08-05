@@ -1,0 +1,25 @@
+.safety-deposit-box-list {
+  margin-top: 2rem;
+}
+
+.safety-deposit-box-list > [data-paste-element="STACK"] {
+  max-width: 600px;
+}
+
+.safety-deposit-boxes-page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 7rem;
+  min-height: calc(100vh - 18.25rem);
+  padding: 0 1rem;
+}
+
+.safety-deposit-box-list-empty {
+  align-self: center;
+  justify-self: center;
+}
+
+hr {
+  width: 100%;
+}

@@ -1,0 +1,9 @@
+.safety-deposit-box-input-list > [data-paste-element="STACK"] {
+  max-width: 600px;
+}
+
+.safety-deposit-box-details {
+  margin-top: 7rem;
+  min-height: calc(100vh - 18.25rem);
+  padding: 0 1rem;
+}
